@@ -1,0 +1,34 @@
+﻿@model Car.DataLayer.Entities.Car
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<h1>@Model.CarGroup.TitleGroup</h1>
+<hr />
+<div>
+    <h2 class="display-5">@Model.Name-@Model.Model</h2>
+    <hr />
+
+    <p>توضیحات: @Model.Description</p>
+    <h4>مشخصات فنی بدنه</h4>
+    <ul>
+        <li><span><b>کلاس بدنه:</b></span>@Model.CarBodyInformation.BodyType</li>
+        <li><span><b>وزن:</b></span>@Model.CarBodyInformation.Weight</li>
+        <li><span><b>تعداد درب:</b></span>@Model.CarBodyInformation.DoorsCount</li>
+        <li><span><b>رنگ:</b></span>@Model.Color</li>
+    </ul>
+    <hr />
+    <h4>مشخصات فنی موتور</h4>
+    <ul>
+        <li><span><b>حجم موتور:</b></span>@Model.CarEngineInformation.EngineDisplacement</li>
+        <li><span><b>نوع موتور:</b></span>@Model.CarEngineInformation.EngineType</li>
+        <li><span><b>تعداد سیلندر:</b></span>@Model.CarEngineInformation.cylindersCount</li>
+        <li><span><b>تعداد سوپاپ:</b></span>@Model.CarEngineInformation.SoupapeCount</li>
+    </ul>
+    <hr />
+
+    <dl>
+    </dl>
+   
+</div>
+

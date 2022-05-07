@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarGallery", "CarGallery\CarGallery.csproj", "{D4B1D08A-640D-437E-B6C3-2B9BD54A3F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car.DataLayer", "Car.DataLibrary\Car.DataLayer.csproj", "{F3201D10-DEF0-4764-81E0-252987549053}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4B1D08A-640D-437E-B6C3-2B9BD54A3F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B1D08A-640D-437E-B6C3-2B9BD54A3F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B1D08A-640D-437E-B6C3-2B9BD54A3F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B1D08A-640D-437E-B6C3-2B9BD54A3F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3201D10-DEF0-4764-81E0-252987549053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3201D10-DEF0-4764-81E0-252987549053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3201D10-DEF0-4764-81E0-252987549053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3201D10-DEF0-4764-81E0-252987549053}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55C64D95-3182-4034-85B6-8463B34997D5}
+	EndGlobalSection
+EndGlobal

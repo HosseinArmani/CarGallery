@@ -1,0 +1,22 @@
+﻿
+@model Car.DataLayer.Entities.Agency
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+
+<hr />
+<div>
+    <h2 class="display-5">@Model.Name</h2>
+    <hr />
+
+    <h4>مشخصات نمایندگی</h4>
+    <ul>
+        <li><span><b>نام نمایندگی:</b></span>@Model.Name</li>
+        <li><span><b>شهر:</b></span>@Model.City</li>
+        <li><span><b>ادرس:</b></span>@Model.Address</li>
+        <li><span><b>شماره تماس:</b></span>@Model.PhoneNumber</li>
+    </ul>
+    
+</div>
+
